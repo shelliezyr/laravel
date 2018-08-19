@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class StaticPageController extends Controller
 {
-    //test 2222
+    //test 111
 	public function home(){
 		return view('staticpage/home');
 	}

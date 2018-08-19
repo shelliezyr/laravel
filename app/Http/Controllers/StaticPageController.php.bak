@@ -22,4 +22,9 @@ class StaticPageController extends Controller
 		return view('staticpage/help');
 	}
 
+	public function post(Request $request){
+		$name = $request->input('name');
+		return view('staticpage/help');
+	}
+
 }
